@@ -32,3 +32,5 @@ If you find this project useful, please give back by including a call to ApnDefa
 This method will ensure that your device only sends the same APN data once and as devices with access to good APN data call this method on different networks it will build up our list of known APNs.
 
 For this inital release we are not distributing it as a jar files so we recommend that you simply copy the single Java file into your src directory and build it with the rest of your project.
+
+This repository will be updated regularly with new apn data but you can download the latest reported data directly from the reporting server here: http://apn.softcoil.com
