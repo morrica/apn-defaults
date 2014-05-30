@@ -57,6 +57,8 @@ public class ApnDefaults {
         put("311480|Verizon|311480|Verizon Wireless", new ApnParameters("http://mms.vtext.com/servlets/mms", null, null));
         put("311480|Verizon Wireless|311480|Verizon Wireless", new ApnParameters("http://mms.vtext.com/servlets/mms", null, null));
 
+        //vodafone UK
+        put("23415||23415|vodafone UK", new ApnParameters("http://mms.vodafone.co.uk/servlets/mms", "212.183.137.12", 8799));
 
         // ******* Old data keyed only by mccmnc below!
         // ******* Sub-carriers will match the wrong entry here because they share MCCMNCs!
