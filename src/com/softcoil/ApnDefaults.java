@@ -56,6 +56,12 @@ public class ApnDefaults {
         //Boost Mobile
         put("310120|Sprint|310120|Boost Mobile", new ApnParameters("http://mm.myboostmobile.com", "68.28.31.7", 80));
 
+        //Family Mobile
+        put("310260||310260|Family Mobile", new ApnParameters("http://mms.msg.eng.t-mobile.com/mms/wapenc", "null", null));
+
+        //MetroPCS
+        put("310260||310260|MetroPCS", new ApnParameters("http://metropcs.mmsmvno.com/mms/wapenc", "null", null));
+
         //Red Pocket
         put("310410|AT&T@|310410|Red Pocket", new ApnParameters("http://mmsc.cingular.com", "66.209.11.33", null));
 
