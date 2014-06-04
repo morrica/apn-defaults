@@ -59,21 +59,47 @@ public class ApnDefaults {
         //Family Mobile
         put("310260||310260|Family Mobile", new ApnParameters("http://mms.msg.eng.t-mobile.com/mms/wapenc", "null", null));
 
+        //HOME
+        put("310260||310260|HOME", new ApnParameters("http://mms.tracfone.com", "216.155.165.40", 8080));
+
+        //Home
+        put("310000|Default|310000|Home", new ApnParameters("http://pix.cspire.com", "null", null));
+
         //MetroPCS
         put("310260||310260|MetroPCS", new ApnParameters("http://metropcs.mmsmvno.com/mms/wapenc", "null", null));
 
         //Red Pocket
         put("310410|AT&T@|310410|Red Pocket", new ApnParameters("http://mmsc.cingular.com", "66.209.11.33", null));
 
+        //Red Pocket
+        put("310410||310410|Red Pocket", new ApnParameters("http://mmsc.cingular.com", "66.209.11.33", 80));
+
+        //Simple Mobile
+        put("310260||310260|Simple Mobile", new ApnParameters("http://mms.msg.eng.t-mobile.com/mms/wapenc", "null", null));
+
         //SoftBank
         put("44020|SoftBank|44020|SoftBank", new ApnParameters("http://mms-s", "andmms.plusacs.ne.jp", 8080));
+
+        //Sprint
+        put("310120|Sprint|310120|Sprint", new ApnParameters("http://mms.sprintpcs.com", "68.28.31.7", 80));
 
         //T-Mobile USA
         put("310260||310260|T-Mobile", new ApnParameters("http://mms.msg.eng.t-mobile.com/mms/wapenc", null, null));
 
-        //Verizon
-        put("311480|Verizon|311480|Verizon Wireless", new ApnParameters("http://mms.vtext.com/servlets/mms", null, null));
-        put("311480|Verizon Wireless|311480|Verizon Wireless", new ApnParameters("http://mms.vtext.com/servlets/mms", null, null));
+        //Verizon Wireless
+        put("311480|Verizon Wireless|311480|Verizon Wireless", new ApnParameters("http://mms.vtext.com/servlets/mms", "null", null));
+
+        //Verizon Wireless
+        put("311480|Verizon|311480|Verizon Wireless", new ApnParameters("http://mms.vtext.com/servlets/mms", "null", null));
+
+        //Verizon Wireless
+        put("311480|Verizon Wireless|310000|Verizon Wireless", new ApnParameters("http://mms.vtext.com/servlets/mms", "null", null));
+
+        //Verizon Wireless
+        put("311480|Verizon|31000|Verizon Wireless", new ApnParameters("http://mms.vtext.com/servlets/mms", "null", null));
+
+        //Verizon Wireless
+        put("310004|Verizon|310000|Verizon Wireless", new ApnParameters("http://mms.vtext.com/servlets/mms", "null", null));
 
         //vodafone UK
         put("23415||23415|vodafone UK", new ApnParameters("http://mms.vodafone.co.uk/servlets/mms", "212.183.137.12", 8799));
