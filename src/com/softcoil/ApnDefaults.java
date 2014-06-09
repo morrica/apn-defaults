@@ -53,17 +53,32 @@ public class ApnDefaults {
         //AT&T
         put("310410||310410|AT&T", new ApnParameters("http://mmsc.mobile.att.net", "proxy.mobile.att.net", null));
 
+        //Bell
+        put("302610||302610|Bell", new ApnParameters("http://mms.bell.ca/mms/wapenc", "null", null));
+
         //Boost Mobile
         put("310120|Sprint|310120|Boost Mobile", new ApnParameters("http://mm.myboostmobile.com", "68.28.31.7", 80));
 
         //Family Mobile
         put("310260||310260|Family Mobile", new ApnParameters("http://mms.msg.eng.t-mobile.com/mms/wapenc", "null", null));
 
+        //Fido
+        put("302370||302720|Fido", new ApnParameters("http://mms.fido.ca", "mmsproxy.fido.ca", 80));
+
+        //H2O
+        put("310410||310410|H2O", new ApnParameters("http://mmsc.cingular.com", "66.209.11.33", 80));
+
         //HOME
         put("310260||310260|HOME", new ApnParameters("http://mms.tracfone.com", "216.155.165.40", 8080));
 
         //Home
         put("310000|Default|310000|Home", new ApnParameters("http://pix.cspire.com", "null", null));
+
+        //INDOSAT
+        put("51001|INDOSAT|51001|", new ApnParameters("http://mmsc.indosat.com", "10.19.19.19", 8080));
+
+        //MegaFon
+        put("25002|MegaFon|25002|MegaFon", new ApnParameters("http://mmsc:8002", "10.10.10.10", 8080));
 
         //MetroPCS
         put("310260||310260|MetroPCS", new ApnParameters("http://metropcs.mmsmvno.com/mms/wapenc", "null", null));
@@ -74,6 +89,9 @@ public class ApnDefaults {
         //Red Pocket
         put("310410||310410|Red Pocket", new ApnParameters("http://mmsc.cingular.com", "66.209.11.33", 80));
 
+        //Samsung
+        put("310000|Samsung|310000|Samsung", new ApnParameters("http://mm.myboostmobile.com", "68.28.31.7", 80));
+
         //Simple Mobile
         put("310260||310260|Simple Mobile", new ApnParameters("http://mms.msg.eng.t-mobile.com/mms/wapenc", "null", null));
 
@@ -83,8 +101,14 @@ public class ApnDefaults {
         //Sprint
         put("310120|Sprint|310120|Sprint", new ApnParameters("http://mms.sprintpcs.com", "68.28.31.7", 80));
 
-        //T-Mobile USA
+        //T-Mobile
         put("310260||310260|T-Mobile", new ApnParameters("http://mms.msg.eng.t-mobile.com/mms/wapenc", null, null));
+
+        //Telstra Mobile
+        put("50501|BOOST|50501|Telstra Mobile", new ApnParameters("http://mmsc.telstra.com:8002/", "10.1.1.180", 80));
+
+        //U.S. Cellular
+        put("311580|U.S. Cellular|31000|U.S. Cellular", new ApnParameters("http://mmsc1.uscc.net/mmsc/MMS", "null", null));
 
         //Verizon Wireless
         put("311480|Verizon Wireless|311480|Verizon Wireless", new ApnParameters("http://mms.vtext.com/servlets/mms", "null", null));
@@ -100,6 +124,21 @@ public class ApnDefaults {
 
         //Verizon Wireless
         put("310004|Verizon|310000|Verizon Wireless", new ApnParameters("http://mms.vtext.com/servlets/mms", "null", null));
+
+        //Verizon Wireless
+        put("311480|Verizon Wireless|3107|Verizon Wireless", new ApnParameters("http://mms.vtext.com/servlets/mms", "null", null));
+
+        //Verizon Wireless
+        put("311480|Verizon Wireless|31000|Verizon Wireless", new ApnParameters("http://mms.vtext.com/servlets/mms", "null", null));
+
+        //Verizon Wireless
+        put("310008|Verizon Wireless|311480|Verizon Wireless", new ApnParameters("http://mms.vtext.com/servlets/mms", "null", null));
+
+        //Verizon Wireless
+        put("311480|Verizon Wireless|31000|", new ApnParameters("http://mms.vtext.com/servlets/mms", "null", null));
+
+        //VIRGIN
+        put("302610||302610|VIRGIN", new ApnParameters("http://mms.bell.ca/mms/wapenc", "null", null));
 
         //vodafone UK
         put("23415||23415|vodafone UK", new ApnParameters("http://mms.vodafone.co.uk/servlets/mms", "212.183.137.12", 8799));
